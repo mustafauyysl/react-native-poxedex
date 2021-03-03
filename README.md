@@ -41,9 +41,9 @@ Test01 - Detail Page - Caught a pokemon
 Precondition: Not catching the same Pokemon before
 
 Text steps:   
-          - Open App
-          - Click any pokemon card on homepage
-          - Click 'Caught' button
+- Open App
+- Click any pokemon card on homepage
+- Click 'Caught' button
 
 Expected result: 'Caught' button will turn into 'Release' button
 
