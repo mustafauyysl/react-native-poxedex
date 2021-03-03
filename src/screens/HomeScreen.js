@@ -61,7 +61,7 @@ const HomeScreen = (props) => {
         <Text
           style={[
             styles.headerTitle,
-            {color: props.theme === 'light' ? null : '#fff'},
+            {color: props.theme === 'light' ? colors.darkTheme : '#fff'},
           ]}>
           Pokédex
         </Text>
