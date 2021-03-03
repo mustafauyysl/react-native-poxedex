@@ -103,6 +103,7 @@ const DetailScreen = (props) => {
         style={styles.button}
         bgColor={mainColor}
         title={isCaught ? I18n.t('releaseBtnTitle') : I18n.t('caughtBtnTitle')}
+        titleColor={props.theme === 'light' ? '#fff' : colors.darkTheme}
       />
     </View>
   );
