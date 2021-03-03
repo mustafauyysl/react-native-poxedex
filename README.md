@@ -48,7 +48,6 @@ Text steps:
 Expected result: 'Caught' button will turn into 'Release' button
 
 Text result: Success ✅
-          - 
 
 
 
