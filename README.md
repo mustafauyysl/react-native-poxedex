@@ -6,6 +6,16 @@
 git clone https://github.com/mustafauyysl/react-native-poxedex.git 
 npm install
 ```
+
+# Dependencies
+- Redux
+- Redux Thunk
+- Axios
+- React Navigation
+- React Native Vector Icons
+- i18n-js
+- react-native-localize
+
 # Demo
 
 ![Simulator Screen Shot - iPhone 11 - 2021-03-03 at 10 24 49](https://user-images.githubusercontent.com/41873800/109785481-3af59180-7c1d-11eb-9f19-2d1372835a3b.png)
@@ -23,14 +33,6 @@ npm install
 - German
 - France
 
-# Dependencies
-- Redux
-- Redux Thunk
-- Axios
-- React Navigation
-- React Native Vector Icons
-- i18n-js
-- react-native-localize
 
 
 
