@@ -7,11 +7,11 @@ const getPokemonsSuccess = (pokemons) => {
 };
 
 export const getPokemons = () => {
-  return (dispatch) => {
-    let url = 'https://pokeapi.co/api/v2/pokemon?limit=100';
-    return fetch(url)
-      .then((response) => response.json())
-      .then((result) => dispatch(getPokemonsSuccess(result.results)));
+  return async (dispatch) => {
+    const url = 'https://pokeapi.co/api/v2/pokemon?limit=100';
+    const response = await api.get(url);
+    const results = response.data.results;
+    dispatch(getPokemonsSuccess(results));
   };
 };
 
