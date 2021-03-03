@@ -7,6 +7,7 @@ import {bindActionCreators} from 'redux';
 import * as caugthActions from '../redux/actions/caughtActions';
 import NoData from '../components/NoData';
 import I18n from '../lang/_i18n';
+import colors from '../constants/colors';
 
 const CaughtScreen = (props) => {
   useEffect(() => {
@@ -57,6 +58,7 @@ const styles = StyleSheet.create({
 const mapStateToProps = (state) => {
   return {
     capturedPokemons: state.caughtReducer,
+    theme: state.changeThemeReducer,
   };
 };
 

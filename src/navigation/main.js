@@ -46,6 +46,10 @@ const MainNavigator = (props) => {
             headerTintColor:
               props.theme === 'light' ? '#fff' : colors.darkTheme,
             headerBackTitleVisible: false,
+            cardStyle: {
+              backgroundColor:
+                props.theme === 'light' ? '#fff' : colors.darkTheme,
+            },
           }}></MainStack.Screen>
         <MainStack.Screen
           name="Favorites"
@@ -57,6 +61,10 @@ const MainNavigator = (props) => {
             headerTintColor:
               props.theme === 'light' ? '#fff' : colors.darkTheme,
             headerBackTitleVisible: false,
+            cardStyle: {
+              backgroundColor:
+                props.theme === 'light' ? '#fff' : colors.darkTheme,
+            },
           }}></MainStack.Screen>
       </MainStack.Navigator>
     </NavigationContainer>

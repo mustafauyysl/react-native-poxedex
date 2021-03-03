@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
 const mapStateToProps = (state) => {
   return {
     capturedPokemons: state.caughtReducer,
+    theme: state.changeThemeReducer,
   };
 };
 
